@@ -24,7 +24,6 @@ load_dotenv(BASE_DIR / '.env')
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.getenv('SECRET_KEY')
-SECRET_KEY = 'django-insecure-#zr)fr65i7ol1p5ew1ihi^-jw%=84%y39rus79*vk058l1rhu6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -48,12 +47,14 @@ INSTALLED_APPS = [
     'multiselectfield',
 
     'users',
-
+    'educational_modules'
     'categories',
+    'students',
 ]
 
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
+    'DEFAULT_AUTHEN'
+    'TICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
 }
