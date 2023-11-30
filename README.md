@@ -12,8 +12,7 @@ Diploma это django-rest-framework проект.
 5. Остановите постгрес service postgresql stop
 6. Из корневой папки проекта запустите docker-compose build
 7. После docker-compose up
-   
-8.Проект доступен по адрессу http://0.0.0.0:8000
+8. Проект доступен по адрессу http://0.0.0.0:8000
 
 Приложения и модели
 
